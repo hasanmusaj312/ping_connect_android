@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".fragment.TermsConditionsFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:gravity="center">
+
+            <ImageView
+            android:contentDescription="@string/content_description"
+                android:id="@+id/menuButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_menu"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/red">
+
+            <TextView
+                android:id="@+id/badgeTextView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:contentDescription="@string/content_description"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_logo"
+            android:scaleType="centerInside"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/ubuntu_r"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:text="@string/terms_amp_conditions_label"
+            android:textColor="#000000"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:fontFamily="@font/ubuntu_r"
+                    android:textSize="16sp"
+                    android:text="@string/terms_conditions_one"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:fontFamily="@font/ubuntu_r"
+                    android:textSize="16sp"
+                    android:text="@string/terms_conditions_two"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.signin.HomeActivity">
+
+    <ImageView
+        android:contentDescription="@string/content_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/new_1" />
+
+    <ImageView
+        android:contentDescription="@string/content_description"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/img_logo_light"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#55000000"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/emailButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                app:cardBackgroundColor="#e61735"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+        android:contentDescription="@string/content_description"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_email_red"
+                        android:tint="#FFFFFF"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/sign_up_with_email"
+                        android:fontFamily="@font/ubuntu_m"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/facebookButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                app:cardBackgroundColor="#395faf"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="25dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+        android:contentDescription="@string/content_description"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/ic_facebook"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/continue_with_facebook"
+                        android:fontFamily="@font/ubuntu_m"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"/>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/we_do_not_post_to_facebook"
+                android:fontFamily="@font/ubuntu_r"
+                android:textSize="12sp"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="@string/already_have_an_account_log_in"
+            android:fontFamily="@font/ubuntu_m"
+            android:textSize="14sp"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+
+</FrameLayout>

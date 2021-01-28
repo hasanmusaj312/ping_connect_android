@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/firstNameTextField"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/ubuntu_r"
+            android:textSize="15sp"
+            android:hint="First Name"
+            android:background="#FFFFFF"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EAEAEA"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/birthdayTextField"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:inputType="textPersonName"
+            android:fontFamily="@font/ubuntu_r"
+            android:focusable="false"
+            android:textSize="15sp"
+            android:hint="Birthday"
+            android:background="#FFFFFF"/>
+
+        <ImageView
+            android:contentDescription="@string/content_description"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_calendar"/>
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EAEAEA"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_r"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:text="Height"
+            android:textColor="#999999"/>
+
+        <TextView
+            android:id="@+id/heightTextView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_r"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:text="5'0&quot;"
+            android:textColor="#FD3F53"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <io.apptik.widget.MultiSlider
+                android:id="@+id/heightSlider"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                app:thumbColor="#F92442"
+                app:thumbNumber="1"
+                app:stepsThumbsApart="5"
+                app:drawThumbsApart="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_r"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="3dp"
+                    android:textSize="15sp"
+                    android:text="5'0&quot;"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_r"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="right"
+                    android:textSize="15sp"
+                    android:text="7'5&quot;"
+                    android:textColor="#000000"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EAEAEA"/>
+
+    <EditText
+        android:id="@+id/aboutTextField"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/ubuntu_r"
+        android:textSize="15sp"
+        android:gravity="left"
+        android:hint="Write about yourself"
+        android:background="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            app:cardCornerRadius="22dp"
+            app:cardElevation="5dp">
+
+            <TextView
+                android:id="@+id/updateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:elevation="8dp"
+                android:fontFamily="@font/ubuntu_b"
+                android:gravity="center"
+                android:text="UPDATE"
+                android:textColor="#000000"
+                android:textSize="17sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ubuntu_r"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:gravity="right"
+            android:textSize="17sp"
+            android:text="Cancel"
+            android:textColor="#333333"/>
+
+    </LinearLayout>
+
+</LinearLayout>

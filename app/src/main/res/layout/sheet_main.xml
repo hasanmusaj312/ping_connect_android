@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:drawablePadding="8dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Block"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:drawablePadding="8dp"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:text="Report"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sheet_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="Cancel"
+        android:textSize="18sp" />
+
+</LinearLayout>

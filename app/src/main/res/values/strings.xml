@@ -1,0 +1,363 @@
+<resources>
+    <string name="app_name">ping connects</string>
+    <string name="sample_title">ChatKit for Android</string>
+
+    <string name="facebook_app_id">364926627662826</string>
+    <string name="fb_login_protocol_scheme">fb364926627662826</string>
+
+    <string name="view">View</string>
+
+    <string name="sample_title_default">Default view</string>
+    <string name="sample_subtitle_default">Dialogs and messages with default style</string>
+    <string name="sample_title_attrs">Styled view</string>
+    <string name="sample_subtitle_attrs">Styled components using embedded attributes</string>
+    <string name="sample_title_layout">Custom layout</string>
+    <string name="sample_subtitle_layout">Custom layouts to change default views position</string>
+    <string name="sample_title_holder">Custom view holder</string>
+    <string name="sample_subtitle_holder">Custom view holder to extend default behaviour for a new features</string>
+    <string name="sample_title_custom_content">Custom content type</string>
+    <string name="sample_subtitle_custom_content">Custom message content on the example of voice message</string>
+    <string name="content_description">Content Description</string>
+
+    <string name="hint_enter_a_message">Chat…</string>
+    <string name="on_log_click_message">Your custom long click handler</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="copied_message">Message copied!</string>
+
+    <string name="date_header_today">Today</string>
+    <string name="date_header_yesterday">Yesterday</string>
+
+    <string-array name="view_types_dialog">
+        <item name="image">Image (default)</item>
+        <item name="voice">Voice message (custom)</item>
+    </string-array>
+
+    <string name="start_typing_status">Start typing</string>
+    <string name="stop_typing_status">Stop typing</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="privacy_policy">This privacy policy (“Privacy Policy”) describes the information collected by Shrestone Dating LLC d/b/a Ping Connects (“we,” “us,” or “our”), how that information may be used, with whom it may be shared, and your choices about such uses and disclosures. By using our website, located at http://www.pingconnects.com (“Website”), our mobile apps, and/or other services we provide (collectively, “Ping Connects”), you agree to the practices set forth in this Privacy Policy. If you do not agree with this policy, then you must not access or use Ping Connects.
+Information we collect and how we collect it:
+Information collected automatically: When you use Ping Connects, we automatically collect and store certain information about your computer or mobile device and your activities. This information includes:
+	•	Mobile Device ID. Your mobile device’s unique ID number (e.g., IMEI, AD ID).
+	•	Geographic Location. Your mobile device’s geographic location when you first register for Ping Connects through our mobile app or when you enable location services within the app for its services.
+	•	Device Information/Specifications. Technical information about your computer or mobile device (e.g., type of device, web browser or operating system, IP address) to analyze trends, administer the site, prevent fraud, track visitor movement in the aggregate, and gather broad demographic information.
+	•	Length and Extent of Usage. How long and in what manner you used Ping Connects and which services and features you used.
+	•	Cookies: We use “cookies” to keep track of some types of information while you are visiting Ping Connects or using our services. “Cookies” are very small files placed on your computer, and they allow us to count the number of visitors to our Website and distinguish repeat visitors from new visitors. They also allow us and third parties we work with to save user preferences, track user trends, and advertise to you. We use both session and persistent cookies on our Website; session cookies expire at the end of a particular visit to our Website, while persistent cookies (also called stored cookies) remain active until you disable them through your browser settings, or until a pre-set expiration date. We rely on cookies for the proper operation of Ping Connect; therefore, if your browser is set to reject all cookies, Ping Connects may not function properly. Users who refuse cookies assume all responsibility for any resulting loss of functionality with respect to Ping Connects.
+	•	Web Beacons: “Web beacons” (also known as “clear gifs” and “pixel tags”) are small transparent graphic images that are often used in conjunction with cookies in order to further personalize Ping Connects for our users, collect a limited set of information about our visitors, and advertise to our users. We may also use web beacons in email communications in order to understand the behavior of our customers, such as whether an email has been opened or acted upon.
+	•	Other Users: Other users may provide personal data about you as they use the Service (for example, if they contact us about you). We don’t necessarily process this information and we do not retain this information. 
+
+Information you choose to provide:
+Personal Data. This personal data can include, but is not limited to, your phone number. Your profile consists of your first name, as well as other data you provide, including gender, age, pictures, videos, captions, answers to prompts, your neighborhood, and your location. When setting up or editing your profile, we have indicated which types of data is optional to provide (as opposed to mandatory), as well as which types of data is shared with other recommended matches. You may choose to share this personal data with other members, which includes but is not limited to gender, age, location, height, ethnicity, religion, children, family plans, education, politics, and lifestyle choices. By choosing to provide this personal data, you consent to our processing of that data. 
+Emails: We require an email address from you when you register with certain Ping Connects apps. We use your email for both “administrative” (e.g., confirming your registration, notifying of matches) and “promotional” (e.g., newsletters, new product offerings, special discounts, event notifications, special third- party offers) purposes. Email messages we send you may contain code that enables our database to track your usage of the e-mails, including whether the e-mail was opened and what links (if any) were clicked. You may opt-out of receiving promotional emails and other promotional communications from us at any time via the opt-out links provided in such communications, or by e-mailing admin@pingconnects.com with your specific request. However, we reserve the right to send you certain communications relating to Ping Connects such as service announcements, security alerts, update notices, or other administrative messages) without affording you the opportunity to opt out of receiving such communications.
+Pursuant to the terms of this Privacy Policy, we may use the information we collect from you for the following purposes:
+	•	facilitate matches with other Ping Connects users;
+	•	respond to your comments and questions and provide customer service;
+	•	to tailor and provide communications to you about Ping Connects and related offers, promotions, advertising, news, upcoming events, and other information we think will be of interest to you;
+	•	monitor and analyze trends, usage and activities;
+	•	investigate and prevent fraud and other illegal activities;
+	•	provide, maintain, and improve Ping Connects and our overall business;
+	•	where we otherwise have a legitimate interest in doing so, for example, direct marketing, research (including marketing research), network and information security, fraud prevention, and enforcing or defending against legal claims; and
+	•	where you otherwise consent to such use.
+Sharing Your Information
+The information we collect is used to provide and improve the content and the quality of Ping Connects, and without your consent we will not otherwise share your personal information to/with any other parties for commercial purposes, except: (a) to provide Ping Connects, (b) when we have your permission, or (c) or under the following instances:
+Service Providers. We may share your information with our third-party service providers that support various aspects of our business operations (e.g., marketing and analytics providers, security and technology providers, and payment processors).
+Legal Disclosures and Business Transfers. We may disclose any information without notice or consent from you: (a) in response to a legal request, such as a subpoena, court order, or government demand; (b) to investigate or report illegal activity; or (c) to enforce our rights or defend claims. We may also transfer your information to another company in connection with a merger, financing due diligence, corporate restructuring, sale of any or all of our assets, or in the event of bankruptcy.
+Updating or Removing Account Information
+You may review or edit your profile as you wish, by logging into your Ping Connects account using the information supplied during the registration process. If you would like to have us delete your account information, we will then permanently delete your account. Where you have consented to our use of your personal information, you may withdraw your consent at any time. Notwithstanding the foregoing, we may continue to contact you for the purpose of communicating information relating to your request for Ping Connects services, or to respond to any inquiry or request made by you, as applicable. To opt out of receiving message concerning Ping Connects, you must cease requesting and/or utilizing services from Ping Connects, and cease submitting inquiries to Ping Connects, as applicable.
+Age Restriction
+We do not target or allow persons under 18 years of age to use Ping Connects, and we do not knowingly collect information from persons under the age of 18. If you are a parent or legal guardian who discovers that your child has provided us with information without your consent, you may contact us at admin@pingconnects.com, and we will promptly delete such information from our files.
+Data Retention
+Ping Connects retains the personal information we receive as described in this Privacy Policy for as long as you use our services or as necessary to fulfill the purpose(s) for which it was collected, provide our services, resolve disputes, establish legal defenses, conduct audits, pursue legitimate business purposes, enforce our agreements, and comply with applicable laws.
+
+Securing Your Personal Information
+We take steps to ensure that your information is treated securely and in accordance with this Privacy Policy. Unfortunately, the Internet cannot be guaranteed to be 100% secure, and we cannot ensure or warrant the security of any information you provide to us. We do not accept liability for unintentional disclosure.
+By providing personal information to us, you agree that we may communicate with you electronically regarding security, privacy, and administrative issues relating to your use of Ping Connects. If we learn of a security system’s breach, we may attempt to notify you electronically by posting a notice on the Site or sending an e-mail to you. You may have a legal right to receive this notice in writing.
+The sharing of personal data as explained in this Policy may involve the transfer of personal data across borders, for instance to the United States and other jurisdictions, where data protection and privacy regulations may not offer the same level of protection as in other parts of the world. As an example, where the Service allows for users to be located in the European Economic Area (“EEA”), their personal data is transferred to countries outside of the EEA. We use standard contract clauses approved by the European Commission or other suitable safeguard to permit data transfers from the EEA to other countries. Standard contractual clauses are commitments between companies transferring personal data, binding them to protect the privacy and security of your data.
+Changes to this Privacy Policy
+We may update this Privacy Policy from time to time. If there are any material changes to this Privacy Policy, Ping Connects will notify you by email or as otherwise required by applicable law. When we post changes to this Privacy Policy, we will revise the “last updated” date at the top of this Privacy Policy. We recommend that you check our Website from time to time to inform yourself of any changes in this Privacy Policy or any of our other policies.
+How to Contact Us
+If you have any questions about our privacy practices, this Privacy Policy, or how to lodge a complaint with the appropriate authority, please contact us by email at admin@pingconnects.com. </string>
+    <string name="terms_conditions_one">Last Updated: February 1, 2019
+This is a legal agreement (“Agreement”) between you and Shrestone Dating LLC d/b/a Ping Connects (“Company,” “Service,” “we,” “us,” or “our”). By using our website, located at http://www.pingconnects.com (“Website”), our mobile app, and/or other services we provide (collectively, “Ping Connects”), or otherwise accessing the pages of Ping Connects, you become a user and agree to, and are bound by, the terms and conditions of this Agreement for as long as you continue to use the Site or Services. IF YOU DO NOT AGREE TO BE BOUND BY THIS AGREEMENT, DO NOT USE THE SITE OR THE SERVICES. Your use of, or participation in, certain Services may be subject to additional terms, and such terms will be either listed in this Agreement or will be presented to you for your acceptance when you sign up to use such Services.
+The Ping Connects services consist of a dating service for single people utilizing geographic location, including interactive content and community services. Ping Connects may offer additional services or revise any of the Services, at its discretion, and this Agreement will apply to all additional services or revised Services. Ping Connects also reserves the right to cease offering any of the Services.
+This Agreement is subject to change by Ping Connects in its sole discretion at any time, with or without notice. Your continued use of this Site or the Services after the posting of revisions to this Agreement will constitute your acceptance of such revisions. Please consult the end of this Agreement to determine when the Agreement was last revised.
+Eligibility
+	•	Minimum Age. You must be at least 18 years old to use the Site and to register for the Services. By registering to the Services, you represent and warrant that you are at least 18 years old.
+	•	Marital Status. By requesting to use, registering to use, or using the Singles Service, you represent and warrant that you are not legally married or in a relationship.
+	•	Criminal History. By requesting to use, registering to use, and/or using the Singles Service, you represent and warrant that you have never been convicted of a felony and/or are not required to register as a sex offender with any government entity. Ping ConnectS DOES NOT CURRENTLY CONDUCT CRIMINAL BACKGROUND SCREENINGS ON ITS MEMBERS. However, Ping Connects reserves the right to conduct any criminal background check, at any time and using available public records, to confirm your compliance with this subsection.
+Use of Site and Service
+As a user of the Site (“User”) or a user registered to use any of the Services (a “Registered User”), you agree to the following:
+	•	Exclusive Use. Your account is for your personal use only. You may not authorize others to use your account, and you may not assign or otherwise transfer your account to any other person or entity.
+	•	Geographic Limitations. Using the Service may be prohibited or restricted in certain countries. If you use the Service from outside of the United States, you are responsible for complying with the laws and regulations of the territory from which you access or use the Website or Service. You are not located in, under the control of, or a national or resident of any country which the United States has (i) embargoed goods, (ii) identified as a “Specially Designated National”, or (iii) placed on the Commerce Department’s Table of Deny Orders. Registration for, and use of, the Services are void where prohibited. To the extent that the Services are not legal in your jurisdiction, you may not use the Services. The Services may not be used where prohibited by law.
+	•	Information Submitted. You are solely responsible for, and assume all liability regarding, (i) the information and content you contribute to the Service; (ii) the information and content you post, transmit, publish, or otherwise make available (hereinafter “post”) through the Services, including text messages, chat, videos, photographs or profile text (hereinafter, “content” or “User Submission”; and (iii) your interactions with other Registered Users through the Services. As more fully described below, you may not post or transmit to the Company or other users (either on or off the Service), any offensive, inaccurate, incomplete, abusive, obscene, profane, threatening, intimidating, harassing, racially offensive, or illegal material, or any material that infringes or violates another person’s rights (including intellectual property rights, any rights or privacy and publicity). Without limiting the generality of the foregoing, by posting information or otherwise communicating by means of Ping Connects, you agree that you will not upload, post, share, or otherwise distribute any User Submission that:
+
+	•	Is illegal, threatening, defamatory, abusive, harassing, degrading, intimidating, fraudulent, deceptive, invasive, racist, or contains any type of suggestive, inappropriate, or explicit language or confidential, non- public information about any third party;
+	•	Is hate speech, threatening, or pornographic; promotes or incites violence; or contains nudity or graphic or gratuitous violence.
+	•	Infringes on any trademark, patent, trade secret, copyright, or other proprietary right of any party;
+	•	Contains any type of unauthorized or unsolicited advertising or commercial communications (such as spam);
+	•	Impersonates any person or entity, including any Ping Connects employees or representatives.
+	•	We do our best to keep Ping Connects safe, but we cannot guarantee it. We need your help to keep Ping Connects safe, which includes the following commitments by you:
+	•	You will not collect Users’ User Submissions or information, or otherwise access Ping Connects, using automated means (such as harvesting bots, robots, spiders, or scrapers, or automated pro-active following or un-following) without our prior permission.
+	•	You will not engage in multi-level marketing, such as a pyramid scheme, on Ping Connects.
+	•	You will not upload viruses or other malicious code.
+	•	You will not solicit login information or access an account belonging to someone else.
+	•	You will not bully, intimidate, harass, attack, strike, stalk, threaten, assault (sexually or otherwise), hit follow, molest, destroy personal property, disturb the peace of, keep under surveillance, impersonate (on the Internet, electronically or otherwise), or block movements of any User.
+	•	You will not use Ping Connects to do anything unlawful, misleading, malicious, or discriminatory.
+	•	You will not do anything that could disable, overburden, or impair the proper working or appearance of Ping Connects, such as a denial of service attack or interference with page rendering or other Ping Connects functionality.
+	•	You will not facilitate or encourage any violations of this Agreement or our policies.
+5. Protecting Other People’s Rights. We respect other people’s rights, and expect you to do the same. You therefore agree that:
+	•	You will not post User Submission or take any action on Ping Connects that infringes or violates someone else’s rights or otherwise violates the law.
+	•	We can remove any User Submission or information you post if we believe that it violates this Statement or our policies.
+	•	If you repeatedly infringe other people’s intellectual property rights, we will disable your account when appropriate.
+	•	You will not use our copyrights or trademarks or any confusingly similar marks, except as expressly permitted or with our prior written permission.
+	•	If you collect information from Users, you will: obtain their consent, make it clear you (and not Ping Connects) are the one collecting their information, and post a privacy policy explaining what information you collect and how you will use it.
+	•	You will not post anyone’s identification documents or sensitive financial information on Ping Connects.
+	•	You will not tag Users or send email invitations to non-Users without their consent.
+6. Sharing Your User Submissions and Information.
+	•	We do not assume any liability for any User Submissions posted by you or any other 3rd party Users of our Services. However, subject to your privacy rights and application settings, you grant us a perpetual, irrevocable, non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use any User Submissions that you post on or in connection with Ping Connects (“IP License”). This only refers and applies to User Submissions posted via open communication tools, and does not refer to information that is provided as part of the registration process, necessary in order to use our Services. All information provided as part of our registration process is covered by our Privacy Policy.
+	•	We have the right at our sole discretion to remove any User Submission that, we feel in our judgment does not comply with this Agreement, along with any User Submission that we feel is otherwise offensive, harmful, objectionable, inaccurate, or violates any 3rd party copyrights or trademarks. We are not responsible for any delay or failure in removing such User Submission. If you post User Submission that we choose to remove, you hereby consent to such removal, and consent to waive any claim against us.
+	•	When you delete an IP User Submission, it is deleted in a manner similar to emptying the recycle bin on a computer. However, you understand that removed User Submission may persist in backup copies for a reasonable period of time (but will not be available to others).
+	•	When you post or publish any User Submission or information, it means that you are allowing everyone, including people off of Ping Connects, to access and use that information, and to associate it with you (i.e., your name and profile picture).
+	•	We always appreciate your feedback or other suggestions about Ping Connects, but you understand that we may use your feedback or suggestions without any obligation to compensate you for them (just as you have no obligation to offer them).
+	•	You represent and warrant:
+	•	You are the owner of (or have all the rights and permission required to use) all the intellectual property rights in the User Submissions you post and have the written consent of each and every identifiable natural person in the User Submissions to use such person’s name or likeness in the manner contemplated by the Service and this Agreement. Each person has released you from any liability that may arise in relation to such use.
+	•	The User Submissions, use of the User Submissions with the Services and Ping Connects’ use of such User Submissions will not infringe any intellectual property rights, proprietary rights, privacy rights, confidentiality and rights of publicity or otherwise violate this Agreement or the rights of any third party.
+7. Risk Assumption and Precautions. You assume all risk when using the Services, including but not limited to all of the risks associated with any online or offline interactions with others, including dating. You agree to take all necessary precautions when meeting individuals through our service. You understand that Ping Connects currently does not conduct criminal background checks on its users. The company also does not verify the statements of its users. The company makes no representations or warranties as to the conduct of users of their compatibility with any current or future users. The company reserves the right to conduct any criminal background checks or other screens at any time and us available public records. The company is not responsible for the conduct of any user. At no event, shall the company be liable, directly or indirectly, for any losses or damages whatsoever, general, special, compensatory, consequential, and/or incidental, arising out of or relating to the conduct of you or anyone else in connection with the use of the service, including without limitation, death, bodily injury, emotional distress, and/or any other damages resulting in from communications or meetings with other users through the service. You should not provide your financial information or wire or otherwise send money, to other users.
+8. No Guarantees. Ping Connects may not be able to provide matches for everyone seeking to use its services. Further, Ping Connects makes no guarantees as to the number or frequency of matches through our service, or to such matches’ ability, desire or criteria to communicate with any user. You understand that Ping Connects makes no guarantees, either explicit or implied, regarding your ultimate compatibility with individuals you meet through our service or as to the conduct of such individuals.
+9. Reporting of Violations. You will promptly report to Ping Connects any violation of the Agreement by others, including but not limited to, Registered Users.
+10. Content Removal. Ping Connects reserves the right, but has no obligation, to monitor the information or material you submit to the Services or post in the public areas of the Services. Ping Connects will have the right to remove any such information or material that in its sole opinion violates, or may violate, any applicable law or either the letter or spirit of this Agreement or upon the request of any third party.
+11. No False Information. You will not provide inaccurate, misleading or false information to Ping Connects or to any other user. If information provided to Ping Connects or another user subsequently becomes inaccurate, misleading or false, you will promptly notify Ping Connects of such change.
+12. No Advertising or Commercial Solicitation. You will not advertise or solicit any user to buy or sell any products or services through the Site or Services. You may not transmit any chain letters, junk or spam e-mail to other users. Further, you will not use any information obtained from the Services in order to contact, advertise to, solicit, or sell to any user without their prior explicit consent. If you breach the terms of this subsection and send or post unsolicited bulk email, “spam” or other unsolicited communications of any kind through the Services, you acknowledge that you will have caused substantial harm to Ping Connects, but that the amount of such harm would be extremely difficult to ascertain. As a reasonable estimation of such harm, you agree to pay Ping Connects $50 for each such unsolicited communication you send through the Services.
+13. Unique and Bona Fide Profile. As a Registered User of the Singles Service, you will create only one unique profile. In addition, your use of the Singles Service must be for bona fide relationship-seeking purposes in order to maintain the integrity of the Singles Service (for example, you may not become a Registered User solely to compile a report of compatible singles in your area, or to write a school research paper). Not all registered users are available for matching. From time to time, Ping Connects may create test profiles in order to monitor the operation of the Services.
+		14. No Harassment of Ping Connects’ Employees or Agents. You will not harass, annoy, intimidate or threaten any Ping Connects employees or agents engaged in providing any portion of the Services to you.</string>
+    <string name="terms_conditions_two">
+Proprietary Rights
+1. Ownership of Proprietary Information. You hereby acknowledge and agree that Ping Connects is the owner of highly valuable proprietary information, including without limitation, the matching algorithm, profiles, and profile questions. Ping Connects owns and hereby retains all proprietary rights in the Services and the Site, including but not limited to, all Confidential Information.
+2. No Use of Confidential Information. You will not post, copy, modify, transmit, disclose, show in public, create any derivative works from, distribute, make commercial use of, or reproduce in any way any (i) Confidential Information or (ii) other copyrighted material, trademarks, or other proprietary information accessible via the Services, without first obtaining the prior written consent of the owner of such proprietary rights.
+3. Other Users’ Information. Other Registered Users may post copyrighted information, which has copyright protection whether or not it is identified as copyrighted. You agree that you will not copy, modify, publish, transmit, distribute, perform, display, commercially use, or sell any Ping Connects or third party proprietary information available via the Services or the Site.
+User Information
+Privacy Statement. For information about the collection and possible use of information and material provided by you, please read our Privacy Statement above. By using the Site, App, or the Services, you are consenting to the terms of Ping Connects’ Privacy Statement.
+No Contact Information. You agree that you will not post any e-mail addresses, personal website address or profile page you may have on a third party website, or other contact information in areas other than those specifically designated for this information, or in any other communications you may have with other users. You may, at your discretion, exchange such information after you are mutually connected through the company’s private message line.
+Disclosure By Law. You acknowledge and agree that Ping Connects may disclose information you provide if required to do so by law, at the request of a third party, or if we, in our sole discretion, believe that disclosure is reasonable to (1) comply with the law, requests or orders from law enforcement, or any legal process (whether or not such disclosure is required by applicable law); (2) protect or defend Ping Connects’, or a third party’s, rights or property; or (3) protect someone’s health or safety, such as when harm or violence against any person (including the user) is threatened.
+Disclosure to Protect Abuse Victims. Notwithstanding any other provision of this Agreement or the Privacy Statement, Ping Connects reserves the right, but has no obligation, to disclose any information that you submit to the Services, if in its sole opinion, Ping Connects suspects or has reason to suspect, that the information involves a party who may be the victim of abuse in any form. Abuse may include, without limitation, elder abuse, child abuse, spousal abuse, neglect, or domestic violence. Information may be disclosed to authorities that Ping Connects, in its sole discretion, deems appropriate to handle such disclosure. Appropriate authorities may include, without limitation, law enforcement agencies, child protection agencies, or court officials. You hereby acknowledge and agree that Ping Connects is permitted to make such disclosure.
+Use of Anonymous Information for Research. By using the Services, you agree to allow Ping Connects to anonymously use the information from you and your experiences through the Services to continue Ping Connects’ research into successful relationships and to improve the Services. This research, conducted by psychologists and behavior research scientists, may be published in academic journals. However, all of your responses will be anonymous, and we will not publish research containing your personal identifying information.
+Links to Third-Party Web Sites / Dealings with Advertisers and Sponsors. The Services may contain links to web sites of third-parties, including without limitation, advertisers, which are not under the control of Ping Connects, and Ping Connects is not responsible for the content of any linked site or any link contained in a linked site, or any changes or updates to such web sites. Ping Connects provides these links to you only as a convenience, and the inclusion of any link does not imply that Ping Connects endorses or accepts any responsibility for the content on such third-party web site. Your correspondence or business dealings with, or participation in promotions of, advertisers or sweepstakes sponsors found on or through the Services (including payment and delivery of related goods or services, any personal information or opt-in contact information voluntarily given to advertisers and sweepstake sponsors, and any other terms, conditions, warranties or representations associated with such dealings) are solely between you and such advertiser or sweepstakes sponsor. You agree that Ping Connects will not be responsible or liable for any loss or damage of any sort incurred as the result of any such dealings, including the sharing of the information you supply to Ping Connects with advertisers or sweepstakes sponsors, or as the result of the presence of such advertisers on the Services. Please visit our Privacy Statement to learn more about how we use your information.
+DISCLAIMER OF WARRANTY
+1. No Warranties. THIS SECTION WILL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW. Ping ConnectS PROVIDES THE SERVICES ON AN “AS IS” AND “AS AVAILABLE” BASIS AND GRANTS NO WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY OR OTHERWISE WITH RESPECT TO THE SERVICES OR THE SITE (INCLUDING ALL INFORMATION CONTAINED THEREIN), INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT. Ping ConnectS DOES NOT WARRANT THAT YOUR USE OF THE SERVICES WILL BE SECURE, UNINTERRUPTED, ALWAYS AVAILABLE, ERROR-FREE OR WILL MEET YOUR REQUIREMENTS, OR THAT ANY DEFECTS IN THE SERVICES WILL BE CORRECTED. Ping ConnectS DISCLAIMS LIABILITY FOR, AND NO WARRANTY IS MADE WITH RESPECT TO, THE CONNECTIVITY AND AVAILABILITY OF THE SERVICES.
+2. Third Party Content. Opinions, advice, statements, offers, or other information or content made available through the Services, but not directly by Ping Connects, are those of their respective authors, and should not necessarily be relied upon. Such authors are solely responsible for such content. Ping ConnectS DOES NOT: (i) GUARANTEE THE ACCURACY, COMPLETENESS OR USEFULNESS OF ANY INFORMATION PROVIDED ON THE SERVICES, OR (ii) ADOPT, ENDORSE OR ACCEPT RESPONSIBILITY FOR THE ACCURACY OR RELIABILITY OF ANY OPINION, ADVICE, OR STATEMENT MADE BY ANY PARTY OTHER THAN Ping ConnectS. UNDER NO CIRCUMSTANCES WILL Ping ConnectS BE RESPONSIBLE FOR ANY LOSS OR DAMAGE RESULTING FROM ANYONE’S RELIANCE ON INFORMATION OR OTHER CONTENT POSTED ON THE SERVICES, OR TRANSMITTED TO OR BY ANY USERS.
+3. Beta Features. From time to time, Ping Connects may offer new “beta” features or tools with which its users may experiment on the Services. Such features or tools are offered solely for experimental purposes and without any warranty of any kind, and may be modified or discontinued at Ping Connects’ sole discretion. The provisions of this Disclaimer of Warranty section apply with full force to such features or tools.
+Limitation of Liability
+1. Incidental Damages and Aggregate Liability. IN NO EVENT WILL Ping ConnectS BE LIABLE FOR ANY INCIDENTAL, SPECIAL, CONSEQUENTIAL OR INDIRECT DAMAGES ARISING OUT OF OR RELATING TO THE USE OR INABILITY TO USE THE SERVICES, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OR CORRUPTION OF DATA OR PROGRAMS, SERVICE INTERRUPTIONS AND PROCUREMENT OF SUBSTITUTE SERVICES, EVEN IF Ping ConnectS KNOWS OR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+2. No Liability for non-Ping Connects Actions. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL Ping ConnectS BE LIABLE FOR ANY DAMAGES WHATSOEVER, WHETHER DIRECT, INDIRECT, GENERAL, SPECIAL, COMPENSATORY, CONSEQUENTIAL, AND/OR INCIDENTAL, ARISING OUT OF OR RELATING TO THE CONDUCT OF YOU OR ANYONE ELSE IN CONNECTION WITH THE USE OF THE SERVICES, INCLUDING WITHOUT LIMITATION, BODILY INJURY, EMOTIONAL DISTRESS, AND/OR ANY OTHER DAMAGES RESULTING FROM COMMUNICATIONS OR MEETINGS WITH OTHER REGISTERED USERS OF THE SERVICES. THIS INCLUDES ANY CLAIMS, LOSSES OR DAMAGES ARISING FROM THE CONDUCT OF USERS WHO HAVE REGISTERED UNDER FALSE PRETENSES OR WHO ATTEMPT TO DEFRAUD OR HARM YOU.
+3. Information Verification. Ping Connects and its contractors may use various ways of verifying information that users have provided. However, none of those ways are perfect, and you agree that Ping Connects and its contractors will have no liability to you arising from any incorrectly verified information.
+(continued on the next page)
+
+Indemnification
+You agree to indemnify, defend and hold harmless Ping Connects, its officers, directors, employees, agents and third parties, for any losses, costs, liabilities and expenses (including reasonable attorneys’ fees) relating to or arising out of (a) your use of or inability to use the Site or Services, (b) any user postings made by you, (c) your violation of any terms of this Agreement or your violation of any rights of a third party, or (d) your violation of any applicable laws, rules or regulations. Ping Connects reserves the right, at its own cost, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will fully cooperate with Ping Connects in asserting any available defenses.
+Complaints / Law Enforcement Contact
+To resolve a complaint regarding the Service, you e-mail us at admin@pingconnects.com.
+Notice For California Users : Under California Civil Code Section 1789.3, California website users are entitled to know that they may file grievances and complaints with: the Complaint Assistance Unit of the Division of Consumer Services of the California Department of Consumer Affairs , in writing at 400 R Street, Suite 1080, Sacramento, California, 95814, or by telephone at (916) 445-1254 or (800) 952-5210, or by email at dca@dca.ca.gov.
+Communication and Privacy
+We may use your email address to send you messages notifying you of important changes to the Services or special offers.
+Term and Termination
+This Agreement will become effective upon your acceptance of the Agreement by your use of the Site or the Services and will remain in effect in perpetuity unless terminated hereunder. Either you or Ping Connects may terminate your account at any time, for any reason or no reason, without explanation, effective upon sending written notice to the other party. Ping Connects reserves the right to immediately suspend or terminate your access to any of the Services, without notice, for any reason or no reason. We also reserve the right to remove your account information or data from our Services and any other records at any time at our sole discretion. In the event your access to any of the Services is suspended due to the breach of this Agreement, you agree that all fees then paid to Ping Connects by you will be nonrefundable and all outstanding or pending payments will immediately be due, except as specified in Special State Terms section below. You may terminate your account by visiting Settings page within the app.
+Cancellations
+Cancellation At Any Time. Except as otherwise stated in this section, you may cancel your registration or subscription to any Services at any time during the term of such registration or subscription by doing the following:
+1. Access the “Settings” tab on the app and click to “Cancel Membership” and provide the information requested.
+Ping Connects is not responsible for refunding for subscription already purchased, except as specified in Special State Terms section below.
+General Provisions
+1. Controlling Law and Jurisdiction. You agree that California law (without giving effect to its conflicts of law principles) will govern this Agreement, the Site and the Services and that any dispute arising out of or relating to this Agreement, the Site or the Services will be subject to the exclusive jurisdiction and venue of the federal and state courts in California. You acknowledge and agree that any violation of this Agreement may cause Ping Connects irreparable harm, and therefore agree that Ping Connects will be entitled to seek extraordinary relief in court, including but not limited to temporary restraining orders, preliminary injunctions and permanent injunctions without the necessity of posting a bond or other security, in addition to and without prejudice to any other rights or remedies that Ping Connects may have for a breach of this Agreement.
+2. Miscellaneous. This Agreement, which you accept upon registration for the Services, the Privacy Statement located on the Site, and any applicable payment, renewal, Additional Services terms, comprise the entire agreement between you and Ping Connects regarding the use of this Service, superseding any prior agreements between you and Ping Connects related to your use of this Site or Services (including, but not limited to, any prior versions of this Agreement). The FAQ’s found on the Services are for informational purposes only and are not deemed to be part of this Agreement. Unless otherwise explicitly stated, the Agreement will survive termination of your registration to the Service. The failure of Ping Connects to exercise or enforce any right or provision of this Agreement does not constitute a waiver of such right or provision. If any provision of this Agreement is held invalid, the remainder of this Agreement will continue in full force and effect. Regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to the use of the Site or this Agreement must be filed within one (1) year after such claim or cause of action arose or be forever barred. The section titles in this Agreement are for convenience only and have no legal or contractual effect.
+Special Provisions Applicable to Users Outside the United States
+We strive to create a global community with consistent standards for everyone, but we also strive to respect local laws. The following provisions apply to Users and non-Users who interact with Ping Connects outside the United States:
+(a) You consent to having your personal data transferred to and processed in the United States.
+(b) If you are located in a country embargoed by the United States, or are on the U.S. Treasury Department’s list of Specially Designated Nationals you will not engage in commercial activities on Ping Connects (such as payments). You will not use Ping Connects if you are prohibited from receiving products, services, or software originating from the United States.
+
+Digital Millennium Copyright Act Notice
+Ping Connects respects the intellectual property rights of others and expects its users to do the same. It is Ping Connects’ policy, in appropriate circumstances and at its discretion, to disable and/or terminate the accounts of users who repeatedly infringe or are repeatedly charged with infringing the copyrights or other intellectual property rights of others. Ping Connects will respond expeditiously to claims of copyright infringement committed using the Ping Connects’ Site or other online network accessible through a mobile device or other type of device that are reported to Ping Connects’ Copyright Agent.
+If you believe that your copyrighted work has been copied in a way that constitutes copyright infringement and is accessible on this Site, please notify Ping Connects at admin@pingconnects.com as set forth in the Digital Millennium Copyright Act of 1998 (DMCA). For your complaint to be valid under the DMCA, you must provide the following information in writing:
+1. Identify the copyrighted work that you claim has been infringed, or — if multiple copyrighted works are covered by the notice — you may provide a representative list of the copyrighted works that you claim have been infringed.
+2. Identify the material that you claim is infringing (or to be the subject of infringing activity) and that is to be removed or access to which is to be disabled, and information reasonably sufficient to permit us to locate the material, including at a minimum, if applicable, the URL of the link shown on the site where such material may be found.
+3. Provide your mailing address, telephone number, and, if available, email address.
+4. Include both of the following statements in the body of the notice:
+i. “I hereby state that I have a good faith belief that the disputed use of the copyrighted material is not authorized by the copyright owner, its agent, or the law (e.g., as a fair use).”
+ii. “I hereby state that the information in this Notice is accurate and, under penalty of perjury, that I am the owner, or authorized to act on behalf of the owner, of the copyright or of an exclusive right under the copyright that is allegedly infringed.”
+5. Provide your full legal name and your electronic or physical signature.
+Deliver this notice, with all items completed, to Ping Connects’ Copyright Agent:
+Shrestone Dating LLC d/b/a Ping Connects P.O. Box 3414
+Tustin, CA 92781 Email: admin@pingconnects.com
+ Revision Date. This Agreement was last revised on February 1, 2019.
+Special State Terms
+The following provisions are added to this Agreement for subscribers residing in Arizona, California, Connecticut, Illinois, Iowa, Minnesota, New York, North Carolina, Ohio and Wisconsin:
+You, the buyer, may cancel this agreement, without penalty or obligation, at any time prior to midnight of the third business day following the original date of this contract, excluding Sundays and holidays. To cancel this agreement, mail or deliver a signed and dated notice which states that you, the buyer, are canceling this agreement, or words of similar effect. This notice shall be sent to:
+Shrestone Dating LLC d/b/a Ping Connects P.O. Box 3414
+Tustin, CA 92781 Email: admin@pingconnects.com
+ (in addition, California and Ohio users may email us at admin@pingconnects.com).
+Please include your Ping Connects email address in any correspondence or your refund may be delayed. If you cancel, Ping Connects will return, within ten days of the date on which you give notice of cancellation, any payments you have made. If you send or deliver the notice to cancel your subscription agreement within such three day period, we will refund the full amount of your subscription.
+In the event that you die before the end of your subscription period, your estate shall be entitled to a refund of that portion of any payment you had made for your subscription which is allocable to the period after your death. In the event that you become disabled (such that you are unable to use the services of Ping Connects) before the end of your subscription period, you shall be entitled to a refund of that portion of any payment you had made for your subscription which is allocable to the period after your disability by providing the company notice at the same address as listed above.</string>
+
+    <string name="about_ping"><b>IT\'S TIME FOR AN UPGRADE</b>\n\nThe new way of dating is here! Get the new  must-have app...PingConnects! Ping is the newest thing in the dating world. No more sitting at home and scrolling through pictures that are probably five years old and then waiting for days to see if they respond. No more meeting someone four inches shorter than their profile-not any more. Now with PingConnects you can make an "Instant Connection”. No more awkward encounters, it's time to upgrade to real-time dating. Your future could be standing right in front of you! What are you waiting for? Take a chance! Ping someone now.
+
+Are you ready to UPGRADE???
+Don't miss out...Download PingConnects Now!\n
+	Apple 	Android
+
+<b>ABOUT PING</b>\n\nHave  you ever been somewhere such as a coffee shop and seen someone you would like to approach but couldn\'t quite get up the nerve?
+PingConnects allows you to be at any location and instantly see who else is on ping, who\'s available and looking for that special someone or who just wants to find a new friend.
+
+Simply swipe through the photos and if you see someone you\'d like to meet, send them one of the preprogrammed "greetings". You can also send them a personalized message through the chat box.
+
+Then they can reply from the preprogrammed "response list" or chat back with you. You get an instant response! It\'s that simple.
+
+No more missed opportunities!\n\n<b>HOW PING WORKS</b>\n\nYour phone "pings" to notify you when another ping user comes within your set radius. Their picture and information will show on the screen, if you\'re interested, you can reply with one of pings innovative preprogrammed responses or just start chatting.
+
+\n\n<b>SETTING YOUR PHONE\'S LOCATION - "ALWAYS ALLOW"</b>\n\nWhen signing up for your phone\'s location, remember to use the "ALWAYS ALLOW" setting so you don\'t miss out on receiving "pings".
+
+\n\n<b>SET YOUR CUSTOM RADIUS - PINGS UNIQUE CUSTOM SETTINGS</b>\n\nThere is a one mile pre-set radius for connecting with other ping users which has been determined to be adequate for most daily routines, such as coffee shops, colleges, bars, office buildings, etc. You can expand your radius setting depending upon your particular needs. For example, if you are in a rural, less densely populated area you can include surrounding streets or towns by extending your radius to as large as 200 miles.
+
+\n\n<b>MOBILE AND READY TO MEET MORE PEOPLE</b>\n\nPing greatly expands your opportunity to meet more people. Think of how many thousands of people will pass within your radius every day as you move around. With PingConnects, you\'ll always be ready to meet that special someone no matter where you are...at work, the gym, malls, restaurants, bars, sporting events or even on vacation. Any time, any place!
+
+\n\n<b>NO MORE AWKWARD ENCOUNTERS</b>\n\nWith pings special features you can eliminate awkward encounters by knowing who\'s available and by using pings innovative, easy to use preprogrammed messaging.
+
+\n\n<b>MORE FEATURES</b>\n\nSee settings for additional features such as: expanding your radius range, your favorites, blocking and more.
+
+\n\n<b>PUSH NOTIFICATION</b>\n\nLeave on so that you don\'t miss out on receiving "pings". - "LEAVE ON"
+</string>
+    <string name="update_password">UPDATE PASSWORD</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="_80">80</string>
+    <string name="_50">50</string>
+    <string name="_18">18</string>
+    <string name="age">AGE</string>
+    <string name="male">Male</string>
+    <string name="looking_for_a">LOOKING FOR A</string>
+    <string name="female">Female</string>
+    <string name="i_am_a">I AM A</string>
+    <string name="upload_nnow">UPLOAD\nNOW</string>
+    <string name="real_time_dating">REAL - TIME DATING</string>
+    <string name="dot">....................................................................</string>
+    <string name="no_missed_opportunities">NO MISSED OPPORTUNITIES</string>
+    <string name="eliminate_awkward_encounters">ELIMINATE AWKWARD ENCOUNTERS</string>
+    <string name="by_tapping_agree_you_agree_to_nour_privacy_and_terms_of_use_polices">By tapping AGREE, you agree to\nour Privacy and Terms of Use Polices</string>
+    <string name="i_agree">I AGREE</string>
+    <string name="share_a_little_about_yourself">Share A Little About Yourself</string>
+    <string name="sharing_a_few_things_about_yourself_will_dramatically_help_improve_your_results">Sharing a few things about yourself will dramatically help improve your results</string>
+    <string name="next">NEXT</string>
+    <string name="birthday">Birthday</string>
+    <string name="height">Height</string>
+    <string name="_5_0_quot">5\'0\"</string>
+    <string name="_7_5_quot">7\'5\"</string>
+    <string name="city">City</string>
+    <string name="swipe_right_to_browse_members">Swipe Right To Browse Members.</string>
+    <string name="tap_here_to_begin">TAP HERE TO BEGIN</string>
+    <string name="swipe_left_to_delete_members_and">Swipe Left To Delete Members And</string>
+    <string name="registration_complete">REGISTRATION COMPLETE</string>
+    <string name="all_users">ALL USERS</string>
+    <string name="delete_account">DELETE ACCOUNT</string>
+    <string name="notification">NOTIFICATION</string>
+    <string name="contact_us">CONTACT US</string>
+    <string name="privacy_policy_label">PRIVACY POLICY</string>
+    <string name="terms_amp_conditions_label"><![CDATA[TERMS & CONDITIONS]]></string>
+    <string name="edit_profile">EDIT PROFILE</string>
+    <string name="faq">FAQ</string>
+    <string name="messages">MESSAGES</string>
+    <string name="my_favorites">MY FAVORITES</string>
+    <string name="about_ping_label">ABOUT PING</string>
+    <string name="_200_mi">2500 mi</string>
+    <string name="_1_mi">1 mi</string>
+    <string name="_150">150\'</string>
+    <string name="search_distance">SEARCH DISTANCE</string>
+    <string name="home">HOME</string>
+    <string name="edit_photos">EDIT PHOTOS</string>
+    <string name="first_name">First Name</string>
+    <string name="add_your_name">Add Your Name</string>
+    <string name="reset">RESET</string>
+    <string name="email_address">Email Address</string>
+    <string name="please_reset_nyour_password">PLEASE RESET\nYOUR PASSWORD</string>
+    <string name="between_18_and_80">BETWEEN 18 AND 80</string>
+    <string name="already_have_an_account_log_in">ALREADY HAVE AN ACCOUNT ? LOG IN</string>
+    <string name="we_do_not_post_to_facebook">WE DO NOT POST TO FACEBOOK</string>
+    <string name="sign_up_with_email">SIGN UP WITH EMAIL</string>
+    <string name="don_t_have_an_account_sign_up">DON\'T HAVE AN ACCOUNT? SIGN UP</string>
+    <string name="continue_with_facebook">CONTINUE WITH FACEBOOK</string>
+    <string name="log_in">LOG IN</string>
+    <string name="forgot_my_password">FORGOT MY PASSWORD</string>
+    <string name="password">Password</string>
+    <string name="block_user">Block/Report</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="you_can_upload_up_to_4_photos">You can upload up to 4 photos</string>
+    <string name="upload_photos">UPLOAD PHOTOS</string>
+    <string name="user_profile">USER PROFILE</string>
+    <string name="reply_to_message">REPLY TO MESSAGE</string>
+    <string name="sure">Sure!</string>
+    <string name="yes_you_can_message_me">Yes, you can message me.</string>
+    <string name="thank_you_but_i_can_t_right_now">Thank you, but I can\'t right now.</string>
+    <string name="send">SEND</string>
+    <string name="chat">Chat…</string>
+    <string name="subject">Subject</string>
+    <string name="description">Description</string>
+    <string name="email_now">EMAIL NOW</string>
+    <string name="frequently_asked_questions">FREQUENTLY ASKED QUESTIONS</string>
+    <string name="how_can_i_edit_my_profile">HOW CAN I EDIT MY PROFILE?</string>
+    <string name="go_to_settings_scroll_down_to_edit_profile">Go to Settings, scroll down to Edit Profile.</string>
+    <string name="i_forgot_my_password">I FORGOT MY PASSWORD</string>
+    <string name="go_to_edit_profile_page_and_reset_password">Go to Edit Profile page and reset Password.</string>
+    <string name="how_can_i_delete_my_account">HOW CAN I DELETE MY ACCOUNT?</string>
+    <string name="go_to_settings_scroll_down_to_delete_account">Go to Settings, scroll down to DELETE ACCOUNT.</string>
+    <string name="what_happens_when_i_swipe_left">WHAT HAPPENS WHEN I SWIPE LEFT?</string>
+    <string name="swiping_left_will_delete_members">Swiping left will delete Members.</string>
+    <string name="what_happens_when_i_swipe_right">WHAT HAPPENS WHEN I SWIPE RIGHT?</string>
+    <string name="swiping_right_allows_you_to_continuously_browse_members">Swiping right allows you to continuously browse Members.</string>
+    <string name="i_have_messages_how_do_i_view_them">I HAVE MESSAGES. HOW DO I VIEW THEM?</string>
+    <string name="click_on_settings_and_go_into_messages">Click on Settings and go into Messages.</string>
+    <string name="how_do_i_disable_sound_from_the_app">HOW DO I DISABLE SOUND FROM THE APP?</string>
+    <string name="go_into_your_settings_on_your_phone_and_click_on_the_ping_icon_click_on_notifications_then_click_on_sounds_to_disable_sounds">Go into your settings on your phone and click on the ping icon. Click on Notifications, then click on Sounds to disable sounds.</string>
+    <string name="chat_">CHAT</string>
+    <string name="delete">DELETE</string>
+    <string name="browse">BROWSE</string>
+    <string name="about_me">ABOUT ME</string>
+    <string name="select_a_message_or_chat">SELECT A MESSAGE OR CHAT</string>
+    <string name="can_i_join_you">Can I join you?</string>
+    <string name="can_i_buy_you_a_coffee_drinks">Can I buy you a coffee/drinks?</string>
+    <string name="can_i_message_you">Can I message you?</string>
+    <string name="hi">Hi…</string>
+    <string name="there_is_no_one_around_you">There is no one around you.</string>
+    <string name="select_a_message_to_chat">SELECT A MESSAGE TO CHAT</string>
+    <string name="log_out">LOG OUT</string>
+    <string name="share_ping">SHARE PING</string>
+
+    <!--Error strings-->
+    <string name="error_qb_credentials_empty">Credentials are wrong or empty. You have to set:
+        Application ID, Authentification Key, Authentification Secret, Account Key in constants in App.java
+        and you have to set Sender ID in the string resources to launch application.
+        If you haven\'t them you can register new account and application at https://admin.quickblox.com
+        then put Application credentials from Overview page + Account key from https://admin.quickblox.com/account/settings</string>
+    <string name="error_chat_credentails_empty">Some parameter for Chat Settings is wrong. Please check the Chat Settings</string>
+    <string name="error_connection">Connection failed. Please check your internet connection.</string>
+    <string name="error_response_timeout">No response received within reply timeout</string>
+    <string name="no_server_connection">Server connection timeout</string>
+    <string name="error_load_image">Error load image</string>
+    <string name="error_load_video">Can not play video file. It might be corrupt</string>
+    <string name="error_attachment_corrupted">Attachment is corrupted</string>
+    <string name="error_attachment_size">The uploaded file exceeds maximum file size (100MB)</string>
+    <string name="error_forwarding_not_connected">Unable to forward message. Not Connected to Chat</string>
+    <string name="error_attachment_count">You can send 1 attachment per message</string>
+    <string name="error_logout">Unable to Logout: </string>
+    <string name="dlg_retry">Retry</string>
+    <string name="connection_error">Chat connection has been dropped</string>
+    <string name="reconnect_alert">Reconnecting in %s seconds</string>
+
+</resources>

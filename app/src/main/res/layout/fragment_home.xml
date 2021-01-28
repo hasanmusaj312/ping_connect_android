@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".fragment.HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:gravity="center">
+
+            <ImageView
+            android:contentDescription="@string/content_description"
+                android:id="@+id/menuButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_menu"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/red">
+
+            <TextView
+                android:id="@+id/badgeTextView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:contentDescription="@string/content_description"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_logo"
+            android:scaleType="centerInside"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="end"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                app:cardBackgroundColor="#000000"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:id="@+id/chatButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingEnd="10dp"
+                    android:paddingStart="10dp"
+                    android:fontFamily="@font/ubuntu_b"
+                    android:textSize="15sp"
+                    android:text="@string/chat_"
+                    android:textColor="#FFFFFF"/>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="450dp"
+                    android:orientation="vertical"
+                    tools:ignore="UselessLeaf">
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+            android:contentDescription="@string/content_description"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="25dp"
+                        android:src="@drawable/ic_left_long" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_marginStart="55dp"
+                        android:fontFamily="@font/ubuntu_r"
+                        android:text="@string/delete"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="55dp"
+                        android:fontFamily="@font/ubuntu_r"
+                        android:text="@string/browse"
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <ImageView
+            android:contentDescription="@string/content_description"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="end"
+                        android:layout_marginEnd="25dp"
+                        android:src="@drawable/ic_right_long" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#000000"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/logoutButton"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        app:cardBackgroundColor="#FFFFFF"
+                        app:cardCornerRadius="15dp">
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/ubuntu_m"
+                            android:gravity="center"
+                            android:text="@string/log_out"
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="end"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginEnd="50dp"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/ubuntu_m"
+                        android:gravity="center"
+                        android:text="@string/share_ping"
+                        android:textColor="#FFFFFF"
+                        android:textSize="15sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/shareButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="end"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        app:cardCornerRadius="5dp">
+
+                        <ImageView
+            android:contentDescription="@string/content_description"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:padding="10dp"
+                            android:src="@drawable/ic_up" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/informationLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="15dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="15dp"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:paddingTop="15dp">
+
+                            <TextView
+                                android:id="@+id/heightTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/ubuntu_m"
+                                android:gravity="start"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="17sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/ubuntu_m"
+                                android:text="@string/about_me"
+                                android:textColor="#000000"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/aboutTextView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/ubuntu_r"
+                                android:text=""
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:paddingTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/ubuntu_m"
+                                android:text="@string/select_a_message_or_chat"
+                                android:textColor="#000000"
+                                android:textSize="20sp" />
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="24dp"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:text="@string/hi"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+
+                                <ImageView
+            android:contentDescription="@string/content_description"
+                                    android:id="@+id/sendOneCheckbox"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/ic_radio_black_normal" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="24dp"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:text="@string/can_i_join_you"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+
+                                <ImageView
+            android:contentDescription="@string/content_description"
+                                    android:id="@+id/sendTwoCheckbox"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/ic_radio_black_normal" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="24dp"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:text="@string/can_i_buy_you_a_coffee_drinks"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+
+                                <ImageView
+            android:contentDescription="@string/content_description"
+                                    android:id="@+id/sendThreeCheckbox"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/ic_radio_black_normal" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="24dp"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:text="@string/can_i_message_you"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+
+                                <ImageView
+            android:contentDescription="@string/content_description"
+                                    android:id="@+id/sendFourCheckbox"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/ic_radio_black_normal" />
+
+                            </FrameLayout>
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/sendButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center"
+                                app:cardCornerRadius="25dp"
+                                app:cardElevation="0dp">
+
+                                <TextView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:text="@string/send"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:background="@color/black"/>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginEnd="25dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        app:cardCornerRadius="10dp"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:paddingBottom="10dp"
+                            android:paddingStart="15dp"
+                            android:paddingEnd="15dp"
+                            android:paddingTop="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:fontFamily="@font/ubuntu_m"
+                                android:text="@string/reply_to_message"
+                                android:textColor="#000000"
+                                android:textSize="20sp" />
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="24dp"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:text="@string/hi"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+
+                                <ImageView
+            android:contentDescription="@string/content_description"
+                                    android:id="@+id/replyOneCheckbox"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/ic_radio_black_normal" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="24dp"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:text="@string/sure"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+
+                                <ImageView
+            android:contentDescription="@string/content_description"
+                                    android:id="@+id/replyTwoCheckbox"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/ic_radio_black_normal" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="24dp"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:text="@string/yes_you_can_message_me"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+
+                                <ImageView
+            android:contentDescription="@string/content_description"
+                                    android:id="@+id/replyThreeCheckbox"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/ic_radio_black_normal" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="24dp"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:text="@string/thank_you_but_i_can_t_right_now"
+                                    android:textColor="#000000"
+                                    android:textSize="15sp" />
+
+                                <ImageView
+            android:contentDescription="@string/content_description"
+                                    android:id="@+id/replyFourCheckbox"
+                                    android:layout_width="24dp"
+                                    android:layout_height="24dp"
+                                    android:layout_gravity="end"
+                                    android:src="@drawable/ic_radio_black_normal" />
+
+                            </FrameLayout>
+
+                            <androidx.cardview.widget.CardView
+                                android:id="@+id/replyButton"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="10dp"
+                                android:layout_gravity="center"
+                                app:cardCornerRadius="25dp"
+                                app:cardElevation="0dp">
+
+                                <TextView
+                                    android:layout_width="50dp"
+                                    android:layout_height="50dp"
+                                    android:text="@string/send"
+                                    android:fontFamily="@font/ubuntu_r"
+                                    android:gravity="center"
+                                    android:textColor="@color/white"
+                                    android:background="@color/black"/>
+
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="20dp"
+                        app:contentPadding="10dp"
+                        android:gravity="center"
+                        android:elevation="5dp"
+                        app:cardElevation="5dp">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <EditText
+                                android:id="@+id/messageTextField"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:maxLines="1"
+                                android:paddingStart="15dp"
+                                android:paddingEnd="10dp"
+                                android:layout_marginEnd="60dp"
+                                android:textColor="@color/black"
+                                android:hint="@string/chat"
+                                android:background="@null"
+                                android:fontFamily="@font/ubuntu_r"
+                                android:textSize="15sp"
+                                android:autofillHints=""
+                                android:inputType="text" />
+
+                            <ImageView
+            android:contentDescription="@string/content_description"
+                                android:id="@+id/messageSendButton"
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:layout_marginEnd="10dp"
+                                android:layout_gravity="center|end"
+                                android:src="@drawable/ic_send_black"/>
+
+                        </FrameLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        app:cardCornerRadius="22dp"
+                        app:cardElevation="5dp">
+
+                        <TextView
+                            android:id="@+id/blockUserButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="44dp"
+                            android:layout_gravity="center"
+                            android:background="#FFFFFF"
+                            android:elevation="8dp"
+                            android:fontFamily="@font/ubuntu_b"
+                            android:gravity="center"
+                            android:paddingStart="20dp"
+                            android:paddingEnd="20dp"
+                            android:text="@string/block_user"
+                            android:textColor="#000000"
+                            android:textSize="17sp" />
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/cardViewContainerLayout"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/emptyLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <ImageView
+            android:contentDescription="@string/content_description"
+                    android:id="@+id/waveImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img_photo_placeholder" />
+
+                <TextView
+                    android:id="@+id/emptyTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:layout_marginBottom="20dp"
+                    android:text="@string/there_is_no_one_around_you"
+                    android:textColor="#000000"
+                    android:textSize="17sp" />
+
+            </FrameLayout>
+
+            <com.mindorks.placeholderview.SwipePlaceHolderView
+                android:id="@+id/swipeView"
+                android:layout_width="match_parent"
+                android:layout_height="450dp" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/downArrow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            app:cardBackgroundColor="#ffffff"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+            android:contentDescription="@string/content_description"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_down"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+
+</LinearLayout>

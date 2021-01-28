@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.cloudtenlabs.ping">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon,android:theme"
+        tools:targetApi="m">
+        <activity android:name=".activity.signin.GetStartedActivity"></activity>
+
+        <service
+            android:name=".NotificationExtenderBareBonesExample"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".activity.UserProfileActivity" />
+        <activity
+            android:name=".activity.signin.StartActivity"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.signin.HomeActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.LoginActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.ForgotPasswordActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.SignUpActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.FirstNameActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.BirthdayActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.GenderActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.BioActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.UploadPhotoActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.UploadedPhotoActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.EditPhotosActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.MessageActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.def.DefaultDialogsActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.def.DefaultMessagesActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.styled.StyledMessagesActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.styled.StyledDialogsActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.custom.layout.CustomLayoutMessagesActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.custom.layout.CustomLayoutDialogsActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.custom.holder.CustomHolderDialogsActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.custom.holder.CustomHolderMessagesActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".chat.ui.custom.media.CustomMediaMessagesActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.DrawerActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.CompletionActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".activity.signin.AgreementActivity"
+            android:screenOrientation="fullSensor" />
+
+        <service android:name=".BackgroundService" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="com.onesignal.BadgeCountUpdater"
+            android:value="DISABLE" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true"
+            android:screenOrientation="fullSensor">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

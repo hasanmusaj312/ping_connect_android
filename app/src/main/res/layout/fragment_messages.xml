@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".fragment.MessagesFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:gravity="center">
+
+            <ImageView
+            android:contentDescription="@string/content_description"
+                android:id="@+id/menuButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_menu"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="28dp"
+            android:layout_gravity="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/red">
+
+            <TextView
+                android:id="@+id/badgeTextView"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:contentDescription="@string/content_description"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_logo"
+            android:scaleType="centerInside"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:orientation="horizontal"
+            android:layout_marginEnd="10dp"
+            android:gravity="center">
+
+            <ImageView
+                android:contentDescription="@string/content_description"
+                android:id="@+id/removeButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_delete"/>
+
+            <ImageView
+                android:contentDescription="@string/content_description"
+                android:id="@+id/confirmButton"
+                android:layout_marginStart="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:visibility="gone"
+                android:src="@drawable/ic_accept"/>
+
+            <ImageView
+                android:contentDescription="@string/content_description"
+                android:id="@+id/editButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_edit"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/ubuntu_r"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:text="@string/select_a_message_to_chat"
+                android:textColor="#000000"/>
+
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/swipeRefreshLayout"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                </androidx.recyclerview.widget.RecyclerView>
+
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#000000"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/logoutButton"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="15dp"
+                android:gravity="center"
+                app:cardBackgroundColor="#FFFFFF"
+                app:cardCornerRadius="15dp">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:fontFamily="@font/ubuntu_m"
+                    android:textSize="15sp"
+                    android:text="@string/log_out"
+                    android:textColor="#000000"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="50dp"
+                android:gravity="center"
+                android:fontFamily="@font/ubuntu_m"
+                android:textSize="15sp"
+                android:text="@string/share_ping"
+                android:textColor="#FFFFFF"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/shareButton"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_gravity="end"
+                android:gravity="center"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+            android:contentDescription="@string/content_description"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_up" />
+
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

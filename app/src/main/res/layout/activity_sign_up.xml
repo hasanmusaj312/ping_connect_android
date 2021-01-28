@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.signin.SignUpActivity">
+
+    <ImageView
+        android:contentDescription="@string/content_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_email_screen_bg" />
+
+    <ImageView
+        android:contentDescription="@string/content_description"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="-10dp"
+        android:src="@drawable/img_logo_light"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingEnd="15dp"
+                android:paddingStart="15dp">
+
+                <EditText
+                    android:id="@+id/emailTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:inputType="textEmailAddress"
+                    android:fontFamily="@font/ubuntu_r"
+                    android:textSize="15sp"
+                    android:hint="@string/email_address"
+                    android:background="#FFFFFF"
+                    android:autofillHints="" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EAEAEA"/>
+
+                <EditText
+                    android:id="@+id/passwordTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:inputType="textPassword"
+                    android:fontFamily="@font/ubuntu_r"
+                    android:textSize="15sp"
+                    android:hint="@string/password"
+                    android:background="#FFFFFF"
+                    android:autofillHints="" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#EAEAEA"/>
+
+                <EditText
+                    android:id="@+id/confirmPasswordTextField"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:inputType="textPassword"
+                    android:fontFamily="@font/ubuntu_r"
+                    android:textSize="15sp"
+                    android:hint="@string/confirm_password"
+                    android:background="#FFFFFF"
+                    android:autofillHints="" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginBottom="35dp"
+        android:layout_gravity="bottom">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="22dp">
+
+            <ImageView
+        android:contentDescription="@string/content_description"
+                android:id="@+id/backButton"
+                android:layout_width="60dp"
+                android:layout_height="44dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp"
+                android:src="@drawable/ic_arrow_back"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="22dp">
+
+            <TextView
+                android:id="@+id/nextButton"
+                android:layout_width="150dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:elevation="8dp"
+                android:fontFamily="@font/ubuntu_b"
+                android:textSize="17sp"
+                android:text="@string/next"
+                android:textColor="#FE0025"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</FrameLayout>

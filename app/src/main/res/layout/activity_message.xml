@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".activity.MessageActivity">
+
+    <FrameLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:gravity="center">
+
+            <ImageView
+            android:contentDescription="@string/content_description"
+                android:id="@+id/backButton"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_arrow_back"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:contentDescription="@string/content_description"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img_logo"
+            android:scaleType="centerInside"/>
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:paddingBottom="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userPhotoImageView"
+            android:src="@drawable/img_photo_placeholder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:id="@+id/usernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/userPhotoImageView"
+            android:fontFamily="@font/ubuntu_b"
+            android:textSize="17sp"
+            android:text=""
+            android:textColor="#000000"
+            tools:ignore="RelativeOverlap" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="20dp"
+            app:cardBackgroundColor="#999999"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="14dp"
+            tools:ignore="RelativeOverlap">
+
+            <TextView
+                android:id="@+id/blockUserButton"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:gravity="center"
+                android:elevation="8dp"
+                android:fontFamily="@font/ubuntu_m"
+                android:textSize="15sp"
+                android:text="@string/block_user"
+                android:textColor="#FFFFFF"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <com.stfalcon.chatkit.messages.MessagesList
+        android:id="@+id/messagesList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/input"
+        android:layout_below="@+id/block"
+        app:incomingAvatarHeight="40dp"
+        app:incomingAvatarWidth="40dp"
+        app:incomingBubbleDrawable="@drawable/bg_custom_incoming_message"
+        app:outcomingBubbleDrawable="@drawable/bg_custom_outcoming_message"
+        app:outcomingTimeTextColor="@color/gray_dark_transparent"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/input"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/gray_light"/>
+
+    <com.stfalcon.chatkit.messages.MessageInput
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:attachmentButtonBackground="?attr/selectableItemBackgroundBorderless"
+        app:attachmentButtonDefaultIconColor="@color/green"
+        app:attachmentButtonDefaultIconPressedColor="@color/green_dark"
+        app:attachmentButtonHeight="27dp"
+        app:attachmentButtonWidth="27dp"
+        app:inputButtonBackground="@drawable/bg_custom_layout_send"
+        app:inputButtonDefaultIconColor="@color/white"
+        app:inputButtonDefaultIconDisabledColor="@color/white60"
+        app:inputHint="Chat..."
+        app:showAttachmentButton="false"/>
+
+</RelativeLayout>
